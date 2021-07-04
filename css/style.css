@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+
+}
+body{
+
+}
+header{
+	width: 100%;
+	height: 5rem;
+	display: flex;
+	background: #012c7f;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5rem;
+	box-shadow: 0 0 .5rem rgba(0,0,0,1);
+	z-index: 111;
+	position: fixed;
+}
+header .logo img{
+	max-width: 5rem;
+}
+header ul{
+	list-style: none;
+	display: flex;
+}
+header ul li{
+	margin: 0 2rem;
+}
+header ul li a{
+	color: #fff;
+	font-weight: 400;
+	text-decoration:none;
+}
+/*----------------Hero Section------------------*/
+.hero{
+	width: 100%;
+	height: 100vh;
+	background-color: #012c7f;
+}
+.hero .container{
+	display: flex;
+	justify-content: space-between;
+	padding: 6rem 7rem 0rem 7rem;
+}
+.hero .container .text{
+	color: #fff;
+	padding: 5rem 15rem 0 0;
+}
+.hero .container .text h1{
+	font-size: 3rem;
+	font-weight: 900;
+	display: flex;
+	flex-direction: column;
+	line-height: 7rem;
+	margin-bottom: 2rem;
+}
+.hero .container .text h1 span{
+	font-size: 10rem;
+}
+.hero .container .text p{
+	line-height: 2rem;
+	text-align: initial;i
+}
+.can{
+	filter: drop-shadow(0 0 1rem rgba(0,0,0,1));
+	animation: flot 6s linear infinite;
+	transition: 1s;
+}
+/*----------------choice Section------------------*/
+.choice{
+	background: #012c7f;
+	width: 5%;
+	height: 45vh;
+	position: fixed;
+	top: 35%;
+	left: 0%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 .5rem rgba(0,0,0,1);
+	border-radius: 0 1rem 1rem 0;
+	z-index: 11111111;
+}
+.choice ul{
+	list-style: none;
+}
+.choice ul li img{
+	max-height: 5rem;
+	transition: .5s all ease;
+	transform: rotate(-20deg);
+	filter: drop-shadow(0 0 .5rem rgba(0,0,0,.5));
+}
+.choice ul li:hover img{
+	transform: 	scale(1.1)
+				rotate(-20deg);
+}
+/*----------------Flavor Section------------------*/
+.flavor{
+	padding: 1rem 0;
+	width: 100%;
+	z-index: 1111;
+	height: 100vh;
+	background: #fff;
+}
+.flavor .container{
+	display: flex;
+	justify-content: space-between;
+	padding: 5rem 5rem;
+	align-items: center;
+}
+.flavor .container .vl{
+	height: 40vh;
+	margin: 0rem 3rem 0rem 0rem;
+	border-right: .2rem dotted rgba(0,0,0,0.2);
+}
+.flavor .container .left img{
+	height: 25rem;
+	width: auto;
+	margin: 2rem;
+}
+.flavor .container .right{
+	width: 35rem;
+	height: auto;
+}
+.flavor .container .right .about-h2-1{
+	font-size: 3rem;
+	color: #012c7f;
+	margin-bottom: 1rem;
+	font-weight: 900;
+}
+.flavor .container .right .about-h2-2{
+	color: rgba(0,0,0,0.9);
+	font-size: 3rem;
+	margin-bottom: 1rem;
+	font-weight: 900;
+}
+.flavor .container .right p{
+	color: rgba(0,0,0,0.4);
+	line-height: 2rem;
+}
+.flavor .container .right a{
+	display: inline-block;
+	background: #012c7f;
+	padding: .5rem 3rem;
+	color: #fff;
+	margin-top: 1rem;
+	letter-spacing: .5rem;
+	text-decoration:none;
+	transition: .5s;
+}
+.flavor .container .right a:hover{
+	transform: scale(1.05);
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,0.5);
+}
+/*----------------Testimonial Section------------------*/
+.testimonial{
+	background: #012c7f;
+	height: 85vh;
+	text-align: center;
+
+}
+.testimonial .container{
+	padding: 3rem 0rem;
+	margin-bottom: 1rem;
+}
+.testimonial .container h1{
+	color: #fff;
+	font-size: 2rem;
+}
+.testimonial .container p{
+	color: #fff;
+}
+.testimonial .container .slider{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 2rem 15rem;
+	padding: 1rem 0;
+	outline: none;
+	background: rgba(255,255,255,0.15);
+	border-radius: 2rem;
+}
+.testimonial .container .slider .slide{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 0 5rem;
+	outline: none;
+
+}
+.testimonial .container .slider .slide .test-img{
+	height: 5rem;
+	width: 5rem;
+	border-radius: 5rem;
+	overflow: hidden;
+	border: .2rem solid #fff;
+	margin: 1rem auto;
+}
+.testimonial .container .slider .slide .test-img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.testimonial .container .slider .slide .s-p{
+	margin-bottom: 1rem;
+}
+.testimonial .container .slider .slide .span-p{
+	font-weight: 800;
+}
+.testimonial .container .sliderdots{
+	display: flex;
+	justify-content: center;
+}
+.testimonial .container .sliderdots .dots{
+	list-style: none;
+	display: flex;
+	margin-top: 1rem;
+}
+.testimonial .container .sliderdots .dots li button{
+	font-size: 0;
+	width: .4rem;
+	height: .4rem;
+	margin-right: 0.5rem;
+	border-radius: 3rem;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	background: rgba(255,255,255,0.2);
+}
+.testimonial .container .sliderdots .dots li.slick-active button{
+	background: rgba(255,255,255,0.2);
+	width: 1rem;
+}
+/*----------------Footer Section------------------*/
+footer{
+	height: 3rem;
+	width: 100%;
+	background:#012c7f;
+	box-shadow: 0 -0.5rem 1rem rgba(0,0,0,0.5);
+}
+.copytext{
+	text-align: center;
+	color: #fff;
+	font-weight: 500;
+	padding: .7rem 0 0 0;
+}
+.copytext a{
+	text-decoration: none;
+	font-weight: 800;
+	color: #fff;
+}
+.copytext a:hover{
+	text-shadow: 0 0 .2rem #000;
+}
+/*----------------Animation Section------------------*/
+@keyframes flot{
+	0%{transform: translateY(0rem) rotate(-20deg);}
+	50%{transform: translateY(2rem) rotate(-20deg);}
+	100%{transform: translateY(0rem) rotate(-20deg);}
+}

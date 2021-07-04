@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+	<title>Developer Nazmul</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../offlineCDN/slick-slider/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="../offlineCDN/slick-slider/slick/slick-theme.css">
+</head>
+<body>
+<!---  Header Section  -->
+	<header class="nav">
+		<div class="logo">
+			<img src="img/logo.png">
+		</div>
+		<ul>
+			<li><a href="#hero">HOME</a></li>
+			<li><a href="#flavor">FLAVOR</a></li>
+			<li><a href="#testimonial">TESTIMONIAL</a></li>
+			<li><a href="#contact">CONTACT</a></li>
+		</ul>
+	</header>
+<!---  Hero Section  -->
+	<section id="hero" class="hero">
+		<div class="container">
+			<div class="text">
+				<h1>What Is Your <span>Choice?</span></h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</p>
+			</div>
+			<div class="heroimg">
+				<img class="can" src="img/blue.png" >
+			</div>
+		</div>
+		<div class="choice nav">
+			<ul>
+				<li>
+					<img src="img/blue.png"
+						onclick="
+								changeImage('.can', 'img/blue.png');
+								changeImage('.flavimg', 'img/blueberry.png');
+								changeBackground('header', '#012c7f');
+								changeBackground('footer', '#012c7f');
+								changeBackground('.testimonial', '#012c7f');
+								changeBackground('.hero', '#012c7f');
+								changeBackground('.choice', '#012c7f');
+								changeBackground('.about-btn', '#012c7f');
+								changeText('.about-h2-1', 'Blueberry');
+								changeTextColor('.about-h2-1', '#012c7f');
+								changeTextColor('.copytext', '#fff');
+								changeTextColor('.copytxt', '#fff');
+								changeTextColor('.testimonial-h', '#fff');
+								changeTextColor('.testimonial-p', '#fff');
+								changeTextColor('.s-p', '#fff');
+								changeTextColor('.span-p', '#fff');
+					">
+				</li>
+				<li>
+					<img src="img/red.png"
+						onclick="
+								changeImage('.can', 'img/red.png');
+								changeImage('.flavimg', 'img/redberry.png');
+								changeBackground('header', '#a40024');
+								changeBackground('footer', '#a40024');
+								changeBackground('.testimonial', '#a40024');
+								changeBackground('.hero', '#a40024');
+								changeBackground('.choice', '#a40024');
+								changeBackground('.about-btn', '#a40024');
+								changeText('.about-h2-1', 'Redberry');
+								changeTextColor('.about-h2-1', '#a40024');
+								changeTextColor('.copytext', '#fff');
+								changeTextColor('.copytxt', '#fff');
+								changeTextColor('.testimonial-h', '#fff');
+								changeTextColor('.testimonial-p', '#fff');
+								changeTextColor('.s-p', '#fff');
+								changeTextColor('.span-p', '#fff');
+					">
+				</li>
+				<li>
+					<img src="img/yellow.png"
+						onclick="
+								changeImage('.can', 'img/yellow.png');
+								changeImage('.flavimg', 'img/mango.png');
+								changeBackground('header', '#ecb000');
+								changeBackground('footer', '#ecb000');
+								changeBackground('.hero', '#ecb000');
+								changeBackground('.testimonial', '#ecb000');
+								changeBackground('.choice', '#ecb000');
+								changeBackground('.about-btn', '#ecb000');
+								changeText('.about-h2-1', 'Mango');
+								changeTextColor('.about-h2-1', '#ecb000');
+								changeTextColor('.copytext', '#000');
+								changeTextColor('.copytxt', '#000');
+								changeTextColor('.testimonial-h', '#000');
+								changeTextColor('.testimonial-p', '#000');
+								changeTextColor('.s-p', '#000');
+								changeTextColor('.span-p', '#000');
+					">
+				</li>
+			</ul>
+		</div>
+	</section>
+<!---  Flavour Section  -->
+	<section id="flavor" class="flavor">
+		<div class="container">
+			<div class="left">
+				<img src="img/blueberry.png" class="flavimg">
+			</div>
+			<div class="vl"></div>
+			<div class="right">
+				<span class="about-h2-1">Blue Berry</span><span class="about-h2-2"> Flavore</span>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+					<br>
+					<a class="about-btn" href="#">About</a>
+				</p>
+			</div>
+		</div>
+	</section>
+<!---  Testimonial Section  -->
+	<section id="testimonial" class="testimonial">
+			<div class="container">
+			<h1 class="testimonial-h">Testimonials</h1>
+			<p class="testimonial-p">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor.
+            </p>
+			<div class="slider">
+				<div class="slide">
+					<div class="test-img">
+						<img src="img/testimonial/5.jpg">
+					</div>
+					<p class="s-p">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.
+					</p>
+					<span class="span-p">- Name Of Feedbacker</span>
+				</div>
+				<div class="slide">
+					<div class="test-img">
+						<img src="img/testimonial/2.jpg">
+					</div>
+					<p class="s-p">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+					</p>
+					<span class="span-p">- Name Of Feedbacker</span>
+				</div>
+				<div class="slide">
+					<div class="test-img">
+						<img src="img/testimonial/3.jpg">
+					</div>
+					<p class="s-p">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+					</p>
+					<span class="span-p">- Name Of Feedbacker</span>
+				</div>
+				<div class="slide">
+					<div class="test-img">
+						<img src="img/testimonial/1.jpg">
+					</div>
+					<p class="s-p">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+					</p>
+					<span class="span-p">- Name Of Feedbacker</span>
+				</div>
+			</div>
+			<div class="sliderdots">
+			</div>
+		</div>
+	</section>
+<!---  Footer Section  -->
+	<footer id="contact">
+		<div class="copytext">
+			Copyright 2020 &copy <a class="copytxt" href="#">Developer Nazmul</a>
+		</div>
+	</footer>
+<!---  JavaScript Section  -->
+    <script type="text/javascript" src="js/app.js"></script>
+    <script src="https://kit.fontawesome.com/7e56b4adb2.js" crossorigin="anonymous"></script>
+    <script src="../offlineCDN/jQuery/jquery.js" type="text/javascript"></script>
+    <script src="../offlineCDN/slick-slider/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="js/slide.js"></script>
+</body>
+</html>
